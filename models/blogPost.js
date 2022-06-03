@@ -10,7 +10,7 @@ const BlogPostSchema = new Schema({
     email:String,
     phone: String,
     village: String,
-    message: String,
+    message: Text,
     
     date: {
         type: Date,
